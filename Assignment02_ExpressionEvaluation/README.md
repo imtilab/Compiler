@@ -15,7 +15,9 @@ c = 2
 2
 a x b + a x c + b x c
 a x c - b / c + c x c
+```
 Output:
+```
 8
 5
 ```
@@ -31,7 +33,9 @@ w = 2
 g + p x t - w x p
 t - g + t - w
 e + t x t - m
+```
 Output:
+```
 -1
 -2
 Compilation Error
