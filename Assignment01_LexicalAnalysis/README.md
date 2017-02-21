@@ -1,4 +1,4 @@
-#Compiler Assignment 1
+#Compiler: Assignment01_LexicalAnalysis
 
 Problem Description:
 <p>
