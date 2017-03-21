@@ -10,19 +10,19 @@ Description         	             RE      	  Valid     	Invalid
 Zero or more  	               a(bc)*de    	  ade         abde
                                                   abcbcde     abcbde
                                           
-One or more	                  a(bc)+de	      abcde       ade
+One or more	                  a(bc)+de	    abcde       ade
                                                   abcbcde	    abc
                                           
-Once or not at all	          a(bc)?de	      ade         abc
+Once or not at all	          a(bc)?de	    ade         abc
                                                   abcde       abcbcde
                                           
-Character classes	            [a-m]*	        blackmail   above
+Character classes	            [a-m]*	      blackmail   above
                                                   imbecile	  below
                                           
 Negation of character classes	[^aeiou]	      b           e
                                                   c	          a
 
-Exactly N times	              [^aeiou]{6}	    rhythm      allowed
+Exactly N times	              [^aeiou]{6}	  rhythm      allowed
                                                   syzygy    	rhythms
 ```
 
