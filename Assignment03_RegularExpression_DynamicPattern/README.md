@@ -16,13 +16,13 @@ One or more	                  a(bc)+de	    abcde       ade
 Once or not at all	          a(bc)?de	    ade         abc
                                                   abcde       abcbcde
                                           
-Character classes	            [a-m]*	      blackmail   above
+Character classes	            [a-m]*	    blackmail   above
                                                   imbecile	  below
                                           
-Negation of character classes	[^aeiou]	      b           e
+Negation of character classes	[^aeiou]	    b           e
                                                   c	          a
 
-Exactly N times	              [^aeiou]{6}	  rhythm      allowed
+Exactly N times	             [^aeiou]{6}	 rhythm      allowed
                                                   syzygy    	rhythms
 ```
 
