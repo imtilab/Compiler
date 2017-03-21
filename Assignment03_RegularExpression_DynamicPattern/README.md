@@ -8,22 +8,22 @@ In this assignment, you will work on regular expression. For simplicity, we will
 ```
 Description         	             RE      	  Valid     	Invalid
 Zero or more  	               a(bc)*de    	  ade         abde
-                                              abcbcde     abcbde
+                                                  abcbcde     abcbde
                                           
 One or more	                  a(bc)+de	      abcde       ade
-                                              abcbcde	    abc
+                                                  abcbcde	    abc
                                           
 Once or not at all	          a(bc)?de	      ade         abc
-                                              abcde       abcbcde
+                                                  abcde       abcbcde
                                           
 Character classes	            [a-m]*	        blackmail   above
-                                              imbecile	  below
+                                                  imbecile	  below
                                           
 Negation of character classes	[^aeiou]	      b           e
-                                              c	          a
+                                                  c	          a
 
 Exactly N times	              [^aeiou]{6}	    rhythm      allowed
-                                              syzygy    	rhythms
+                                                  syzygy    	rhythms
 ```
 
 <p>
